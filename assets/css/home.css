@@ -1,0 +1,65 @@
+.carLux-img{
+    background-image: url("https://image.freepik.com/free-photo/man-s-hand-is-cleaning-waxing-car_1150-6099.jpg");
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    .new{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-weight: 700;
+        font-family: "sans-serif";
+       
+    }
+    .new h1,h2{
+        font-size:40px ;
+    }
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top:30px ; 
+    
+}
+.button a svg{
+    color:white;
+}
+
+.drop-down-button{
+    text-decoration: none;
+    background-color: rgb(21, 61, 57);
+    padding: 10px;
+}
+.drop-down-button span{
+    color: white;
+}
+.drop-down-button:hover{
+background-color: rgb(8, 24, 24);
+
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
+}
+.quotes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.quotes h1,h3,h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 3px 2px 2px #9c201c;
+    
+}
+.quotes h1{
+    margin-top: 50px;
+    font-size: 65px;
+    
+}
+.quotes h4{
+   
+    width: 80vw;
+    text-align: center;
+}
+
