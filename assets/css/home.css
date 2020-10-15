@@ -1,0 +1,21 @@
+/* contact us */
+
+#contact-us{
+    background-image: linear-gradient(to right, #340177, #5400D2);
+}
+
+.contact-tabs span{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: honeydew;
+}
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-tabs{
+    width: 50%;
+    min-width: 380px;
+    margin: 15px 0;
+}
