@@ -1,3 +1,60 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  color: #8f8f8f;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.tm-section-pad-top {
+  padding-top: 135px;
+}
+
+.tm-text-primary {
+  color: #3496d8;
+}
+
+
+.tm-btn-primary {
+  color: white;
+  background-color: #3496d8;
+  padding: 14px 35px;
+  border-radius: 30px;
+}
+
+
+
+/* About Us */
+
+.tm-section-title {
+  font-size: 2.6rem;
+  font-weight: normal;
+}
+
+.tm-intro-text {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.tm-icon {
+  display: block;
+  margin-bottom: 55px;
+  color: #3496d8;
+}
+
+/* Work */
+
+.tm-work-description {
+  max-width: 650px;
+  width: 100%;
+  font-size: 1.0rem;
+}
+
+
 /* Title */
 .carLux-img{
     background-image: url("https://image.freepik.com/free-photo/man-s-hand-is-cleaning-waxing-car_1150-6099.jpg");
@@ -86,4 +143,5 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
     min-width: 380px;
     margin: 15px 0;
 }
+
 
