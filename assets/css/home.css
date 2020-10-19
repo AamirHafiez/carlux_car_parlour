@@ -1,8 +1,17 @@
 /* globals */
-html{
-  scroll-behavior: smooth;
+*{
+  box-sizing: border-box;
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
 
 /* About Us */
 
@@ -171,9 +180,14 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
 
 } 
 
+/* media queries */
+
 @media screen and (max-width: 640px){
   .flip-card{
     width: 350px;
-    height: 190px;
+    height: 250px;
+  }
+  .nav-logo{
+    display: none;
   }
 }
