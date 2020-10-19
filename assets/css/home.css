@@ -190,4 +190,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
   .nav-logo{
     display: none;
   }
+  .carLux-img{
+    background-attachment: scroll;
+  }
 }
