@@ -13,32 +13,6 @@ html,body
     scroll-behavior: smooth;
 }
 
-/* About Us */
-
-.tm-section-title {
-  font-size: 2.6rem;
-  font-weight: normal;
-}
-
-.tm-intro-text {
-  font-size: 1.2rem;
-  line-height: 1.4;
-}
-
-.tm-icon {
-  display: block;
-  margin-bottom: 55px;
-  color: #3496d8;
-}
-
-/* Work */
-
-.tm-work-description {
-  max-width: 650px;
-  width: 100%;
-  font-size: 1.0rem;
-}
-
 
 /* Title */
 .carLux-img{
@@ -180,6 +154,103 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
 
 } 
 
+
+/* services */
+#our-services{
+  padding: 70px 0;
+  background-image: linear-gradient(to bottom right, #111113, #3E414A, #111113);
+}
+
+.services-container{
+  width: 80vw;
+  margin-left: 10vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.services-card{
+  width: 20vw;
+  height: 330px;
+  padding-top: 20px;
+  min-width: 260px;
+}
+.services-card-inner{
+  height: 90%;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+  box-shadow: 3px 3px 17px 0 rgba(0,0,0,0.5);
+}
+.services-card-img-container{
+  background-size: cover;
+  height: 85%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: inset 0 0 20px 10px rgba(0,0,0,0.6);
+}
+.services-img-text-container{
+  height: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: height 0.5s ease-in-out;
+  position: relative;
+}
+.services-card-img-container:hover > .services-img-text-container{
+  height: 100%;
+}
+.services-card-img-container:hover > div p{
+  opacity: 1;
+}
+.services-img-text{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+}
+.services-img-text p{
+  color: white;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.service-card-p{
+  text-align: center; 
+  margin-top: 2%;
+}
+.service-card-p p{
+  color: white;
+  font-weight: bold;
+}
+
+
+/* services card images */
+#body-wash-img{
+  background-image: url('../images/bodywash.png');
+}
+#interior-img{
+  background-image: url('../images/interior.png');
+}
+#wheel-wash-img{
+  background-image: url('../images/tire.png');
+}
+#foam-wash-img{
+  background-image: url('../images/foam.png');
+}
+#vacuum-img{
+  background-image: url('../images/vacuum.png');
+}
+#polishing-img{
+  background-image: url('../images/polishing.png');
+}
+#engine-wash-img{
+  background-image: url('../images/engine.png');
+}
+#sanitization-img{
+  background-image: url('../images/sanitization.png');
+}
+
+
 /* media queries */
 
 @media screen and (max-width: 640px){
@@ -192,5 +263,38 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
   }
   .carLux-img{
     background-attachment: scroll;
+  }
+  .services-card{
+    width: 100%;
+    height: 250px;
+  }
+  .services-card-img-container{
+    background-image: url('../images/bodywash_width.png');
+  }
+
+  /* services card images */
+  #body-wash-img{
+    background-image: url('../images/bodywash_width.png');
+  }
+  #interior-img{
+    background-image: url('../images/interior_width.png');
+  }
+  #wheel-wash-img{
+    background-image: url('../images/tire_width.png');
+  }
+  #foam-wash-img{
+    background-image: url('../images/foam_width.png');
+  }
+  #vacuum-img{
+    background-image: url('../images/vacuum_width.png');
+  }
+  #polishing-img{
+    background-image: url('../images/polishing_width.png');
+  }
+  #engine-wash-img{
+    background-image: url('../images/engine_width.png');
+  }
+  #sanitization-img{
+    background-image: url('../images/sanitization_width.png');
   }
 }
