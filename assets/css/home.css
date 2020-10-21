@@ -430,4 +430,16 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
     width: 1px;
     margin-left: 65vw;
   }
+
+  /* register */
+  #register{
+    width: 90vw;
+    margin: 5vw;
+  }
+  .demo-btn{
+    width: 80vw;
+  }
+  .register-btns{
+    width: 80vw;
+  }
 }
