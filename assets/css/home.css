@@ -225,28 +225,28 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
 
 /* services card images */
 #body-wash-img{
-  background-image: url('../images/bodywash.png');
+  background-image: url('../images/bodywash.jpg');
 }
 #interior-img{
-  background-image: url('../images/interior.png');
+  background-image: url('../images/interior.jpg');
 }
 #wheel-wash-img{
-  background-image: url('../images/tire.png');
+  background-image: url('../images/tire.jpg');
 }
 #foam-wash-img{
-  background-image: url('../images/foam.png');
+  background-image: url('../images/foam.jpg');
 }
 #vacuum-img{
-  background-image: url('../images/vacuum.png');
+  background-image: url('../images/vacuum.jpg');
 }
 #polishing-img{
-  background-image: url('../images/polishing.png');
+  background-image: url('../images/polishing.jpg');
 }
 #engine-wash-img{
-  background-image: url('../images/engine.png');
+  background-image: url('../images/engine.jpg');
 }
 #sanitization-img{
-  background-image: url('../images/sanitization.png');
+  background-image: url('../images/sanitization.jpg');
 }
 
 
@@ -384,33 +384,33 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
     height: 250px;
   }
   .services-card-img-container{
-    background-image: url('../images/bodywash_width.png');
+    background-image: url('../images/bodywash_width.jpg');
   }
 
   /* services card images */
   #body-wash-img{
-    background-image: url('../images/bodywash_width.png');
+    background-image: url('../images/bodywash_width.jpg');
   }
   #interior-img{
-    background-image: url('../images/interior_width.png');
+    background-image: url('../images/interior_width.jpg');
   }
   #wheel-wash-img{
-    background-image: url('../images/tire_width.png');
+    background-image: url('../images/tire_width.jpg');
   }
   #foam-wash-img{
-    background-image: url('../images/foam_width.png');
+    background-image: url('../images/foam_width.jpg');
   }
   #vacuum-img{
-    background-image: url('../images/vacuum_width.png');
+    background-image: url('../images/vacuum_width.jpg');
   }
   #polishing-img{
-    background-image: url('../images/polishing_width.png');
+    background-image: url('../images/polishing_width.jpg');
   }
   #engine-wash-img{
-    background-image: url('../images/engine_width.png');
+    background-image: url('../images/engine_width.jpg');
   }
   #sanitization-img{
-    background-image: url('../images/sanitization_width.png');
+    background-image: url('../images/sanitization_width.jpg');
   }
 
 
