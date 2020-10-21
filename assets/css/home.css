@@ -104,6 +104,13 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
 
 /* about us */
 
+/* youtube video */
+
+.youtube-video iframe{
+  height: 200px;
+  width: 40vw;
+}
+
 /* card */
  .flip-card {
   background-color: transparent;
@@ -369,6 +376,12 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
 /* media queries */
 
 @media screen and (max-width: 640px){
+  /* about */
+  .youtube-video iframe{
+    height: 200px;
+    width: 70vw;
+  }
+
   .flip-card{
     width: 350px;
     height: 250px;
