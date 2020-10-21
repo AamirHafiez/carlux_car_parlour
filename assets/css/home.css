@@ -291,6 +291,14 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
   color: darkslategray;
 }
 
+#carousel{
+  background-image: linear-gradient(to bottom right, #111113, #3E414A, #111113);
+  padding: 70px 0;
+}
+
+.carousel-item img{
+  box-shadow: 4px 4px 20px 2px rgba(0,0,0,0.8);
+}
 
 /* media queries */
 
