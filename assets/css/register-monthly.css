@@ -1,0 +1,59 @@
+/* globals */
+
+/* for number input field to remove arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=text], input[type=email], input[type=number]{
+  background-color: #EBEBEB;
+
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body{
+    background-image: url('../images/register_background_1.jpg');
+    background-size: cover;
+}
+
+/* register section */
+#register{
+    padding: 100px 0 0px;
+    margin-bottom: 0;
+}
+
+.register-container{
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 1);
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.register-form-heading{
+  background-color: #6FB555;
+  width: 120%;
+  margin-left: -10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+}
+
+#contact-copy{
+  font-size: small;
+}
+.vehicle-plans{
+  font-size: 1.2rem;
+}
+.plans div{
+  font-size: 0.9rem;
+}
