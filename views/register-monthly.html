@@ -39,7 +39,7 @@
 
     <!-- registration -->
     <section id="register">
-        <div class="register-container bg-light mb-3 pb-4 col-9 col-sm-7 col-md-6 col-lg-4 mx-auto bg-warning">
+        <div class="register-container bg-light mb-3 pb-4 col-10 col-sm-7 col-md-6 col-lg-4 mx-auto bg-warning">
             <div class="register-form-heading mb-4">
                 <p class="mt-2">
                     Monthly Registration
@@ -116,6 +116,18 @@
                 <div class="form-group col-12 mx-auto">
                     <input class="col-12 form-control form-control-sm" type="text" name="number" placeholder="Number (eg, DL00AA1111)*" required>
                 </div>
+
+                 <!-- put code here (for development) -->
+                 <div>
+                    <input type="hidden" name="code" value="" required>
+                </div>
+                <div class="col-12 mx-auto">
+                    <small class="text-muted">An Agent will contact you and verify your details under 24 hours.</small><br>
+                    <small class="text-muted">Please Keep below code with you (screenshot this maybe) and ask agent this code for your security purposes.</small> <br>
+                    <small class="text-danger"><strong>Note: The code will disappear once you click the button below. You cannot generate this again.</strong></small>
+                    <p class="text-success">Your Code: <span>XXXXXXXXXX</span></p>
+                </div>
+
                 <div class="form-group col-12 mx-auto">
                     <button type="submit" class="col-12 form-control btn btn-success">Register Now</button>
                 </div>
