@@ -31,5 +31,4 @@
         console.log('clicked');
         $('.tap-me-container').hide();
     });
-
 }); 
