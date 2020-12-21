@@ -255,7 +255,38 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
 #sanitization-img{
   background-image: url('../images/sanitization.jpg');
 }
-
+.first-service{
+  position: relative;
+}
+.tap-me-container{
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: black solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.4;
+  animation-name: incDecScale;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.tap-me-container i{
+  transform: scale(3);
+}
+@keyframes incDecScale {
+  from{
+    transform: scale(0.8)
+  }
+  to{
+    transform: scale(1)
+  }
+}
 
 /* journey with us */
 #journey-with-us{
@@ -373,6 +404,11 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
   box-shadow: 4px 4px 16px 1px rgba(0,0,0,0.5);
 }
 
+.ss-small{
+  color: #00C869;
+  font-size: 12px;
+}
+
 /* media queries */
 
 @media screen and (max-width: 640px){
@@ -455,4 +491,6 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
   .register-btns{
     width: 80vw;
   }
+
+  /* if sceen size is small */
 }
