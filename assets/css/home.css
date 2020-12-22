@@ -12,7 +12,9 @@ html,body
     overflow-x: hidden; 
     scroll-behavior: smooth;
 }
-
+a{
+  text-decoration: none;
+}
 /* Title */
 .carLux-img{
     background-image: url("https://image.freepik.com/free-photo/man-s-hand-is-cleaning-waxing-car_1150-6099.jpg");
@@ -409,6 +411,14 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
   font-size: 12px;
 }
 
+/* footer */
+footer{
+  background-color: #1B1913;
+}
+.footer-text{
+  color: white;
+}
+
 /* media queries */
 
 @media screen and (max-width: 640px){
@@ -491,6 +501,4 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
   .register-btns{
     width: 80vw;
   }
-
-  /* if sceen size is small */
 }
